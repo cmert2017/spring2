@@ -13,6 +13,13 @@ public class CydeoApp {
         ft.createAccount();
 
 
+        //PartTimeMentor pt = container.getBean("p1",PartTimeMentor.class); //first method use name key
+        PartTimeMentor pt = container.getBean(PartTimeMentor.class); //second method use @Primary annotation
+
+
+        pt.createAccount();
+
+
         String employee = container.getBean(String.class);
         System.out.println("employee = " + employee);
 
