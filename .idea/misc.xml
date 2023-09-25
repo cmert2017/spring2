@@ -5,6 +5,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/Spring-01-Core-IoC/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-02-Core-Wiring/pom.xml" />
       </list>
     </option>
   </component>
