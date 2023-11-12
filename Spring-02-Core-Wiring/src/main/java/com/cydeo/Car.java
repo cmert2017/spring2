@@ -10,7 +10,4 @@ import lombok.ToString;
 public class Car {
     private String make;
 
-
-
-
 }

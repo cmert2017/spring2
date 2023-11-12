@@ -6,7 +6,7 @@ import lombok.ToString;
 
 @Getter
 @Setter
-@ToString
+//@ToString
 public class Person {
     private String name;
     private Car car;

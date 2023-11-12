@@ -9,8 +9,10 @@ public class DealerApp {
         ApplicationContext container = new AnnotationConfigApplicationContext(ConfigCar.class);
 
         Car c = container.getBean(Car.class);
+        container.getBean(Car.class).setMake("BMW");
 
         Person p = container.getBean(Person.class);
+        container.getBean(Person.class).setName("David");
 
         System.out.println("Person's name = " + p.getName());
 

@@ -27,7 +27,7 @@ public class ConfigCar {
     Person person(Car car){
         Person p = new Person();
         p.setName("Nike");
-        p.setCar(car());
+        p.setCar(car);
         return p;
     }
 
