@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 public class Java {
 
     public void getTeachingHours(){
-        System.out.println("Total teaching hours : 15");
+        System.out.println("Total teaching hours : 700");
     }
 
 }
