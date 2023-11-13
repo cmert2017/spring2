@@ -6,9 +6,9 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 public class CydeoApp {
     public static void main(String[] args) {
 
-        ApplicationContext cotainer = new AnnotationConfigApplicationContext(ConfigApp.class);
+        ApplicationContext container = new AnnotationConfigApplicationContext(ConfigApp.class);
 
-        Java java = cotainer.getBean(Java.class);
+        Java java = container.getBean(Java.class);
 
         java.getTeachingHours();
 
