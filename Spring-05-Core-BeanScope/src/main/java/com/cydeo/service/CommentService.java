@@ -13,7 +13,7 @@ public class CommentService {
 
 
     //public CommentService(CommentRepository commentRepository,@Qualifier("commentPushNotificationProxy") CommentNotificationProxy commentNotificationProxy) { //we use inside the @Qualifier the default bean name which is assigned by Spring
-    public CommentService(CommentRepository commentRepository,@Qualifier("PUSH") CommentNotificationProxy commentNotificationProxy) { //here we use custom name way
+    public CommentService(CommentRepository commentRepository, @Qualifier("PUSH") CommentNotificationProxy commentNotificationProxy) { //here we use custom name way
         this.commentRepository = commentRepository;
         this.commentNotificationProxy = commentNotificationProxy;
     }
