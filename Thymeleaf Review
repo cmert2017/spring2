@@ -1,0 +1,67 @@
+Thymeleaf Review: 
+
+Template Engine: It is used to display data in the view that the controller sends. 
+
+Thymeleaf : it provides the good support serving HTML5 in web application. 
+To integrate thymeleaf with springboot we need to add: spring-boot-starter-thymeleaf
+and then to convert the html file to thymeleaf, we need to add the attribute xmlns:th="htttp://www.thymeleaf.org"
+
+
+Thymeleaf components: 
+
+1- Displying values: 
+	th:text is used to display the value of the model attributes
+	and to access the attribute we need to use ${attribute_key}. This exp is used to refer to any of the attributes we send from controller
+
+
+@Controller
+@RequestMapping("/car")
+public class CarController{
+	
+	@RequestMapping("/info")
+	public String carInfo(Model model){
+
+		Listing<String> cars = Arrays.asList("Honda","Toyota","Tesla");
+		model.addAttribute("cars",cars);
+
+
+	 return "car/car-info";
+	}
+
+
+car-info.html:
+
+
+	<h2 th:text="${cars.get(0)}"></h2>
+
+
+Links:  @{....} is used to create URLs
+
+	Absolute URLS : <a th:href="@{http://www.cydeo.com">Cydeo</a>
+
+	Relative URLs : <a th:href="@{/car/buy/"}>Buy a Car</a>
+
+
+	Adding Parameters to Link:  <a th:href="@{car/buy/(year=2019)}"></a> ---> .../car/buy?year=2019
+
+
+Iteration:  th:each is used to achive iteration
+
+
+<ul>
+	<li th:each="car : ${cars}"   th:text="${car}"   >
+
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+}
