@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title th:text="#{index.page.title}">Title</title>
+</head>
+<body>
+
+<h2>Welcome, New Student</h2>
+
+<!--Displaying Values-->
+<h2 th:text="${students}"></h2>
+<h2 th:text="'Welcome, '+ ${students.get(0).firstName} +' '+ ${students.get(0).lastName}"></h2>
+<h2 th:text="${'Welcome, '+ students.get(1).firstName} +' '+ ${students.get(1).lastName}"></h2>
+<!--<h2 th:text="${students.get(0).lastName}"></h2>-->
+
+<!--Links-->
+
+<a th:href="@{http://www.cydeo.com}">Cydeo Website</a>
+<br>
+<a th:href="@{/student/welcome}">Welcome Page</a><br>
+
+<!--Adding Parameters to Link-->
+<a th:href="@{/student/welcome(id=3)}">Welcome, Third Student</a><br>
+<a th:href="@{/student/welcome(id=${students.get(2).firstName + students.get(2).lastName })}">Welcome, Third Student</a>
+
+
+<!--Iterations-->
+
+<ul>
+    <li th:each="student : ${students}" th:text="${student.firstName +' '+ student.lastName}"></li>
+</ul>
+
+
+<!--Conditional Login-->
+
+<div th:text="${students.get(0).age > 25 ? 'ELIGIBLE' : 'Not Eligible'}"></div>
+<span>
+   <span th:if="${students.get(0).state == 'Arizona'}">Arizona</span>
+    <span th:unless="${students.get(0).getState() == 'Arizona'}"></span>
+
+</div>
+
+
+
+
+</body>
+</html>
