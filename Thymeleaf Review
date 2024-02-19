@@ -6,7 +6,6 @@ Thymeleaf : it provides the good support serving HTML5 in web application.
 To integrate thymeleaf with springboot we need to add: spring-boot-starter-thymeleaf
 and then to convert the html file to thymeleaf, we need to add the attribute xmlns:th="http://www.thymeleaf.org"
 
-
 Thymeleaf components: 
 
 1- Displaying values:
