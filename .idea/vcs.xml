@@ -2,11 +2,5 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Spring-06-SpringBoot-Demo" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Spring-07-Spring-MVC-Controller" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Spring-08-Spring-MVC-Model" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Spring-10-ORM-TableCreation" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Spring-11-ORM-Mapping-OneToOne" vcs="Git" />
   </component>
 </project>
