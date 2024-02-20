@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Spring-10-ORM-TableCreation/Spring-10-ORM-TableCreation.iml" filepath="$PROJECT_DIR$/Spring-10-ORM-TableCreation/Spring-10-ORM-TableCreation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-12-ORM-OneToMany-ManyToMany/Spring-12-ORM-OneToMany-ManyToMany.iml" filepath="$PROJECT_DIR$/Spring-12-ORM-OneToMany-ManyToMany/Spring-12-ORM-OneToMany-ManyToMany.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/spring.iml" filepath="$PROJECT_DIR$/.idea/spring.iml" />
     </modules>
   </component>

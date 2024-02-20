@@ -18,8 +18,19 @@
         <module name="Spring-01-Core-IoC" />
         <module name="Spring-03-Core-DI" />
         <module name="Spring-05-Core-BeanScope" />
+        <module name="Spring-12-ORM-OneToMany-ManyToMany" />
+      </profile>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.30/f195ee86e6c896ea47a1d39defbe20eb59cd149d/lombok-1.18.30.jar" />
+        </processorPath>
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Spring-12-ORM-OneToMany-ManyToMany.main" target="17" />
+      <module name="Spring-12-ORM-OneToMany-ManyToMany.test" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
@@ -29,6 +40,7 @@
       <module name="Spring-09-Spring-Thymeleaf" options="-parameters" />
       <module name="Spring-10-ORM-TableCreation" options="-parameters" />
       <module name="Spring-11-ORM-Mapping-OneToOne" options="-parameters" />
+      <module name="Spring-12-ORM-OneToMany-ManyToMany" options="-parameters" />
     </option>
   </component>
 </project>
