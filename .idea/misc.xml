@@ -20,7 +20,13 @@
         <option value="$PROJECT_DIR$/Spring-11-ORM-Mapping-OneToOne/pom.xml" />
         <option value="$PROJECT_DIR$/Spring-12-ORM-OneToMany-ManyToMany/pom.xml" />
         <option value="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-13-ORM-CinemaLab-/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/Spring-13-ORM-CinemaLab-/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_19_PREVIEW" project-jdk-name="21" project-jdk-type="JavaSDK">
