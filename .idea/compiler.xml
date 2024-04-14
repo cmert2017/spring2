@@ -15,17 +15,12 @@
         <module name="Spring-03-Core-DI" />
         <module name="Spring-09-Spring-Thymeleaf" />
         <module name="Spring-06-SpringBoot-Demo" />
+        <module name="Spring-14-ORM-Queries" />
         <module name="Spring-11-ORM-Mapping-OneToOne" />
         <module name="Spring-13-ORM-CinemaLab" />
         <module name="Spring-10-ORM-TableCreation" />
         <module name="Spring-05-Core-BeanScope" />
         <module name="Spring-12-ORM-OneToMany-ManyToMany" />
-      </profile>
-      <profile name="Gradle Imported" enabled="true">
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="false">
-          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.30/f195ee86e6c896ea47a1d39defbe20eb59cd149d/lombok-1.18.30.jar" />
-        </processorPath>
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -45,6 +40,7 @@
       <module name="Spring-12-ORM-OneToMany-ManyToMany" options="-parameters" />
       <module name="Spring-13-ORM-CinemaLab" options="-parameters" />
       <module name="Spring-13-ORM-CinemaLab-" options="-parameters" />
+      <module name="Spring-14-ORM-Queries" options="-parameters" />
     </option>
   </component>
 </project>

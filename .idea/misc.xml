@@ -3,6 +3,7 @@
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/Spring-12-ORM-OneToMany-ManyToMany" />
+    <file type="web" url="file://$PROJECT_DIR$/Spring-14-ORM-Queries" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -21,6 +22,7 @@
         <option value="$PROJECT_DIR$/Spring-12-ORM-OneToMany-ManyToMany/pom.xml" />
         <option value="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/pom.xml" />
         <option value="$PROJECT_DIR$/Spring-13-ORM-CinemaLab-/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-14-ORM-Queries/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
@@ -29,7 +31,7 @@
       </set>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_19_PREVIEW" project-jdk-name="21" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" project-jdk-name="21" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
